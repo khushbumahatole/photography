@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.bg-image{
+    background-image: url(photograpy.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.bg-img2{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+}
+.navbar{
+    background-color: rgba(0, 0, 0, 0.256);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.navbar h1{
+    font-size: 23px;
+}
+.navbar a{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+.container{
+position: absolute;
+left: 350px;
+top:15vh;
+
+}
+span{
+    border: solid grey;
+    border-color: aqua;
+    width: 100px;
+}
+
+
+
+
